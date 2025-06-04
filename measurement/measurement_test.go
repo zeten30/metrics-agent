@@ -11,8 +11,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/cloudability/metrics-agent/measurement"
-	"github.com/cloudability/metrics-agent/test"
+	"github.com/zeten30/metrics-agent/measurement"
+	"github.com/zeten30/metrics-agent/test"
 )
 
 func TestSanity(t *testing.T) {

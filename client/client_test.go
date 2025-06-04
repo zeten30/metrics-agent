@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudability/metrics-agent/client"
-	"github.com/cloudability/metrics-agent/measurement"
-	"github.com/cloudability/metrics-agent/test"
+	"github.com/zeten30/metrics-agent/client"
+	"github.com/zeten30/metrics-agent/measurement"
+	"github.com/zeten30/metrics-agent/test"
 )
 
 const metricsSuffix string = "/metricsample"
