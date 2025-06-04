@@ -3,7 +3,7 @@ package kubernetes
 import (
 	"strings"
 
-	"github.com/cloudability/metrics-agent/retrieval/raw"
+	"github.com/zeten30/metrics-agent/retrieval/raw"
 )
 
 // Connection is a bitmask that describes the manner(s) in which

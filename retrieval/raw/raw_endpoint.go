@@ -6,7 +6,6 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	v1 "k8s.io/api/core/v1"
 	"math"
 	"net/http"
 	"os"
@@ -15,8 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudability/metrics-agent/util"
+	v1 "k8s.io/api/core/v1"
+
 	log "github.com/sirupsen/logrus"
+	"github.com/zeten30/metrics-agent/util"
 )
 
 const (

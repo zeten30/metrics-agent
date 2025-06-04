@@ -1,11 +1,11 @@
 package cmd
 
 import (
-	util "github.com/cloudability/metrics-agent/util"
-	cldyVersion "github.com/cloudability/metrics-agent/version"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+	util "github.com/zeten30/metrics-agent/util"
+	cldyVersion "github.com/zeten30/metrics-agent/version"
 )
 
 // RootCmd is the cobra root command to be executed

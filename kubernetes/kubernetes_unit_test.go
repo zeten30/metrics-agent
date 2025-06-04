@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudability/metrics-agent/client"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/zeten30/metrics-agent/client"
 )
 
 func TestKubernetes(t *testing.T) {
