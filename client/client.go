@@ -23,19 +23,19 @@ import (
 
 	"crypto/md5" //nolint gosec
 
-	"github.com/cloudability/metrics-agent/measurement"
-	"github.com/cloudability/metrics-agent/util"
-	"github.com/cloudability/metrics-agent/version"
+	"github.com/zeten30/metrics-agent/measurement"
+	"github.com/zeten30/metrics-agent/util"
+	"github.com/zeten30/metrics-agent/version"
 )
 
 //nolint gosec
 
-const DefaultBaseURL string = "https://metrics-collector.cloudability.com/metricsample"
-const EUBaseURL string = "https://metrics-collector-eu.cloudability.com/metricsample"
-const AUBaseURL string = "https://metrics-collector-au.cloudability.com/metricsample"
-const MEBaseURL string = "https://metrics-collector-me.cloudability.com/metricsample"
-const GovBaseURL string = "https://metrics-collector-production-gov.cloudability.com/metricsample"
-const StagingBaseURL string = "https://metrics-collector-staging.cloudability.com/metricsample"
+const DefaultBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
+const EUBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
+const AUBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
+const MEBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
+const GovBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
+const StagingBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
 const defaultTimeout = 1 * time.Minute
 const defaultMaxRetries = 5
 

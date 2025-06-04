@@ -24,7 +24,7 @@ TEMP_DIR:=$(shell mktemp -d /tmp/metrics-agent.XXXXXX)
 endif
 
 # This repo's root import path (under GOPATH).
-PKG := github.com/cloudability/metrics-agent
+PKG := github.com/zeten30/metrics-agent
 
 # Application name
 APPLICATION := metrics-agent

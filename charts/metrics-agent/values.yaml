@@ -56,7 +56,7 @@ serviceAccount:
 rbac:
   create: true
 
-# For agent configuration options, see https://github.com/cloudability/metrics-agent/blob/master/README.md
+# For agent configuration options, see https://github.com/zeten30/metrics-agent/blob/master/README.md
 extraEnv: []
 
 securityContext:

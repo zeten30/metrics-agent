@@ -2,15 +2,15 @@
 
 The metrics-agent collects allocation metrics from a Kubernetes cluster system and sends the metrics to cloudability to help you gain visibility, reduce costs, and increase efficiency across your infrastructure.  The agent is designed to run as a container in each cluster inside your orchestration system.
 
-[![Actions Status](https://github.com/cloudability/metrics-agent/workflows/Master/badge.svg)](https://github.com/cloudability/metrics-agent/actions)
-[![Actions Status](https://github.com/cloudability/metrics-agent/workflows/Metrics-Agent/badge.svg)](https://github.com/cloudability/metrics-agent/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cloudability/metrics-agent)](https://goreportcard.com/report/github.com/cloudability/metrics-agent)
+[![Actions Status](https://github.com/zeten30/metrics-agent/workflows/Master/badge.svg)](https://github.com/zeten30/metrics-agent/actions)
+[![Actions Status](https://github.com/zeten30/metrics-agent/workflows/Metrics-Agent/badge.svg)](https://github.com/zeten30/metrics-agent/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zeten30/metrics-agent)](https://goreportcard.com/report/github.com/zeten30/metrics-agent)
 
 ## Kubernetes
 
 By default, the agent runs in a namespace named "cloudability" (see options below).  Once deployed, the agent will pull metrics from the Kubernetes API and directly from each node in the cluster it is running in.  An example kubernetes deployment can be found [here](deploy/kubernetes/cloudability-metrics-agent.yaml).
 
-Every 10 minutes the metrics agent creates a tarball of the gathered metrics and uploads to an Amazon Web Service S3 bucket. This process requires outbound connections to https://metrics-collector.cloudability.com/, to obtain a pre-signed URL, and https://apptio*.s3.amazonaws.com/ to upload the data. If the metrics agent is deployed behind a firewall, these addresses should be added to the outbound allow list.
+Every 10 minutes the metrics agent creates a tarball of the gathered metrics and uploads to an Amazon Web Service S3 bucket. This process requires outbound connections to https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/ to obtain a pre-signed URL, and https://apptio*.s3.amazonaws.com/ to upload the data. If the metrics agent is deployed behind a firewall, these addresses should be added to the outbound allow list.
 
 ## Supported Versions
 
