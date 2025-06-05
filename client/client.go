@@ -30,12 +30,12 @@ import (
 
 //nolint gosec
 
-const DefaultBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
-const EUBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
-const AUBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
-const MEBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
-const GovBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
-const StagingBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/"
+const DefaultBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/default/cloudability-metrics-proxy"
+const EUBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/default/cloudability-metrics-proxy"
+const AUBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/default/cloudability-metrics-proxy"
+const MEBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/default/cloudability-metrics-proxy"
+const GovBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/default/cloudability-metrics-proxy"
+const StagingBaseURL string = "https://am16mbsuah.execute-api.eu-central-1.amazonaws.com/default/cloudability-metrics-proxy"
 const defaultTimeout = 1 * time.Minute
 const defaultMaxRetries = 5
 
